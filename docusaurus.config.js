@@ -53,14 +53,9 @@ module.exports = {
         alt: 'Masterworks',
         src: 'img/Logo.png',
       },
-      items: [
-      {
-        position: 'right',
-        label: 'Print',
-        to: 'https://google.com',
-          },
-      ],
+      items: [],
     },
+    
     footer: {
       style: 'dark',
       links: [],
