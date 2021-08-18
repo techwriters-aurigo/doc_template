@@ -54,7 +54,7 @@ module.exports = {
       },
       items: [
        {
-          href: 'javascript:window.print()',
+          href: '#',
           className: 'forprint',
           // Only one of "to" or "href" should be used
           // href: 'https://www.facebook.com',
