@@ -55,11 +55,10 @@ module.exports = {
       },
       items: [
       {
-            //Renders the html pass-through instead of a simple link
-            html: `
-                <a href="#" onClick={() => alert('hey!')} target="_blank" rel="noreferrer noopener" aria-label="Print">
-                  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Print" />
-                </a>
+        position: 'right',
+        //Renders the html pass-through instead of a simple link
+        html: `
+              <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Print">Print</a>
               `,
           },
       ],
