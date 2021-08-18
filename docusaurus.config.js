@@ -57,6 +57,7 @@ module.exports = {
       {
         position: 'right',
         label: 'Print',
+        to: 'https://google.com',
           },
       ],
     },
