@@ -56,10 +56,7 @@ module.exports = {
       items: [
       {
         position: 'right',
-        //Renders the html pass-through instead of a simple link
-        html: `
-              <div>Print</div>
-              `,
+        label: 'Print',
           },
       ],
     },
