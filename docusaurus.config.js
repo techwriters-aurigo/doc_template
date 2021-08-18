@@ -58,7 +58,7 @@ module.exports = {
         position: 'right',
         //Renders the html pass-through instead of a simple link
         html: `
-              <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Print">Print</a>
+              <div>Print</div>
               `,
           },
       ],
