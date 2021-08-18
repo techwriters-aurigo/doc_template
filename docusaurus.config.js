@@ -48,7 +48,6 @@ module.exports = {
     
     navbar: {
       title: 'My Site',
-      style: 'light',
       logo: {
         alt: 'Masterworks',
         src: 'img/Logo.png',
