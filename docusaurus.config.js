@@ -55,6 +55,7 @@ module.exports = {
       items: [
        {
           href: '#',
+          onclick: 'window.print()'
           // Only one of "to" or "href" should be used
           // href: 'https://www.facebook.com',
           label: 'Print',
