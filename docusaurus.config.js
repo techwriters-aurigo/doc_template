@@ -48,12 +48,21 @@ module.exports = {
     
     navbar: {
       title: 'My Site',
-      style: 'dark',
+      style: 'light',
       logo: {
         alt: 'Masterworks',
         src: 'img/Logo.png',
       },
-      items: [],
+      items: [
+      {
+            //Renders the html pass-through instead of a simple link
+            html: `
+                <a href="#" onClick={() => alert('hey!')} target="_blank" rel="noreferrer noopener" aria-label="Print">
+                  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Print" />
+                </a>
+              `,
+          },
+      ],
     },
     footer: {
       style: 'dark',
