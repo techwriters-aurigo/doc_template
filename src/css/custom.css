@@ -305,9 +305,9 @@ table.simpletable.choicetable tr th[scope="col"]{
   text-align: center !important;
 }
 
-table.simpletable.choicetable colgroup>col{
-	width:30%; 
-	max-width:30%; 
+table.simpletable.choicetable colgroup>col[style]{
+	width:30% !important; 
+	max-width:30% !important; 
 	max-width:20%;
 }
 
