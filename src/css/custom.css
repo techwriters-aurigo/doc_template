@@ -306,7 +306,7 @@ table.simpletable.choicetable tr th[scope="col"]{
 }
 
 table.simpletable.choicetable colgroup>col[style]{
-	width:30% !important; 
+	width:0% !important; 
 	max-width:30% !important; 
 	max-width:20%;
 }
