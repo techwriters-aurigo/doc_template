@@ -305,6 +305,12 @@ table.simpletable.choicetable tr th[scope="col"]{
   text-align: center !important;
 }
 
+table.simpletable.choicetable td:first-child{
+	width:30%; 
+	max-width:30%; 
+	max-width:20%;
+}
+
 /* Figure */
 .fig > img.image {
   border: 1px solid #2d9ed0;
